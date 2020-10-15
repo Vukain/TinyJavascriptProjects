@@ -9,7 +9,8 @@ module.exports = {
     ],
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.module\.s(a|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
