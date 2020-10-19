@@ -1,7 +1,11 @@
-const { v4: uuid } = require('uuid');
+const {
+  v4: uuid
+} = require('uuid');
+const {
+  ids
+} = require('webpack');
 
-const coursesData = [
-  {
+const coursesData = [{
     authors: ['Bartłomiej Borowczyk'],
     id: uuid(),
     img: 'https://img-a.udemycdn.com/course/240x135/1673856_ff13_5.jpg',
@@ -74,19 +78,21 @@ exports.getCourses = (request, response, next) => {
 
 exports.getCourse = (request, response, next) => {
   try {
-    const { id } = request.params;
+    const {
+      id
+    } = request.params;
     const courseToSend = coursesData.find(course => course.id === id);
 
     if (!courseToSend) {
       response.status(404).json({
         message: 'Nie znaleziono kursu o podanym id',
       });
-      
+
       return;
     }
 
     response.status(200).json({
-      course: courseToSend, 
+      course: courseToSend,
     });
   } catch (error) {
     response.status(500).json({
@@ -98,16 +104,23 @@ exports.getCourse = (request, response, next) => {
 
 exports.postCourse = (request, response, next) => {
   try {
-    const { authors, img, price, title } = request.body;
-    if ( !authors || !price || !title ) {
+    const {
+      authors,
+      img,
+      price,
+      title
+    } = request.body;
+    if (!authors || !price || !title) {
       response.status(400).json({
-        message: 'Nie podano wszystkich wymaganych informacji',
+        message: `Nie podano wszystkich wymaganych informacji ${authors} ${price} ${title}`,
       });
 
       return;
     }
 
-    const isCourseExist = coursesData.some(({title: currentTitle}) => currentTitle === title);
+    const isCourseExist = coursesData.some(({
+      title: currentTitle
+    }) => currentTitle === title);
     if (isCourseExist) {
       response.status(409).json({
         message: `Istnieje już w bazie kurs ${title}`,
@@ -139,25 +152,30 @@ exports.postCourse = (request, response, next) => {
 
 exports.putCourse = (request, response, next) => {
   try {
-    const { authors, id, price, title } = request.body;
-    if (!authors || !id || !price || !title) {
+    const {
+      authors,
+      id,
+      price,
+      title
+    } = request.body;
+    if (!authors || !id || !title) {
       response.status(400).json({
-        message: 'Nie podano wszystkich wymaganych informacji',
+        message: `Nie podano wszystkich wymaganych informacji ${authors} ${title} ${id}`,
       });
 
       return;
     }
-
+    // console.log(coursesData);
     const indexCourseToUpdate = coursesData.findIndex(course => course.id === id);
     if (indexCourseToUpdate === -1) {
       response.status(404).json({
-        message: 'Nie znaleziono kursu o podanym id',
+        message: `Nie znaleziono kursu o podanym id - ${id}`,
       });
-      
+
       return;
     }
-    
-    
+
+
     coursesData.splice(indexCourseToUpdate, 1, request.body);
 
     response.status(202).json({
@@ -173,7 +191,9 @@ exports.putCourse = (request, response, next) => {
 
 exports.deleteCourse = (request, response, next) => {
   try {
-    const { id } = request.params;
+    const {
+      id
+    } = request.params;
 
     console.log(id);
     const indexCourseToDelete = coursesData.findIndex(course => course.id === id);
@@ -182,7 +202,7 @@ exports.deleteCourse = (request, response, next) => {
       response.status(404).json({
         message: 'Nie znaleziono kursu o podanym id',
       });
-      
+
       return;
     }
 
