@@ -14,11 +14,12 @@ const AsideMenu = () => {
   const { user } = useContext(StoreContext);
 
   const adminMenuComponent = user?.accessLevel === ADMIN_TYPE ? <AdminMenu /> : null;
+  const cash = user?.budget;
 
   return (
     <section className={style()}>
       <div className={style('nav-wrapper')}>
-        <UserMenu isUserLogged={Boolean(user)} />
+        <UserMenu isUserLogged={Boolean(user)} cash={cash} />
         {adminMenuComponent}
       </div>
     </section>

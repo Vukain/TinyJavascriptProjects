@@ -14,7 +14,7 @@ const usersData = [
   },
   {
     accessLevel: 1,
-    budget: 1000000,
+    budget: 10000,
     courses: [
       coursesData.map(course => course.id)
     ],
