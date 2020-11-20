@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    min-width: $max-width;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
