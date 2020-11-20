@@ -1,0 +1,25 @@
+.scroller__navigation {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroller__navigation ul {
+    list-style: none;
+}
+
+.scroller__navigation ul li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #0007;
+}
+
+.scroller__navigation ul li.active {
+    background-color: #000d;
+}
+
+.scroller__navigation ul li+li {
+    margin-top: 5px;
+}
