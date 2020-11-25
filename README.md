@@ -15,7 +15,7 @@ Slot machine, basic todo app, virtual piano and a scroller.
 
 # React
 
-A todo app, single page app, parallax effect and a basic udemy clone.
+A todo app, single page app using react-router, parallax effect and a basic udemy clone.
 
 # Webpack
 
