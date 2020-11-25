@@ -1,26 +1,26 @@
 # Tiny JavaScript Projects
-Tiny projects and code snippets, made mostly during courses.
+Tiny javascript/frontend projects and code snippets, made mostly during courses.
 
-# Slot Machine
+# Bootstrap
 
-A slot machine that lets you bid virtual bucks and test your luck. 
+A shop dummy stylized with bootstrap.
 
-# Basic To Do App
+# GSAP
 
-Not much to say here - you can add new tasks, delete old ones and search for specific ones. 
+A typing robot animation.
 
-# Virtual Piano
+# VanillaJS
 
-A virtual piano which plays different sounds for different pressed keys. 
+Slot machine, basic todo app, virtual piano and a scroller.
 
-# React To Do App
+# React
 
-A To Do... this time made with react. 
+A todo app, single page app, parallax effect and a basic udemy clone.
 
-# React SPA
+# Webpack
 
-A single page app using react router. 
+An image slider, gallery using Dog API, diet helper using js for rwd and a stars animation using canvas.
 
-# React Basic Udemy Clone
+# Websites
 
-A very basic udemy clone... 
+Basic sites from Youcode and Samuraj courses.
