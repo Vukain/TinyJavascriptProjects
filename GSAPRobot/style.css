@@ -1,0 +1,56 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.typing {
+  width: 50%;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 30px;
+  color: greenyellow;
+  font-weight: 700;
+}
+
+.typing p {
+  margin: 0;
+  line-height: 140%;
+  text-shadow: 0 0 2px currentColor;
+}
+
+.typing p::before {
+  content: "> ";
+}
+
+.typing p:last-of-type::after {
+  content: "_";
+  animation: cursor .3s infinite alternate;
+}
+
+
+.robot {
+  width: 30%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+#robot {
+  height: 90vmin;
+  margin: auto;
+}
+
+@keyframes cursor {
+
+  0%,
+  30% {
+    opacity: 0;
+  }
+
+  70%,
+  100% {
+    opacity: 1;
+  }
+}
