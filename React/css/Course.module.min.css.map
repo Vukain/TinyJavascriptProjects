@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,AAAC,CACX,aAAa,CAAE,IAAI,CACnB,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,gBAAgB,CAAE,IAAI,CACtB,aAAa,CAAE,GAAG,CAgBnB,AAdE,AAAD,mBAAQ,AAAC,CACP,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,IAAI,CACpB,AAEA,AAAD,mBAAQ,AAAC,CACP,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACb,AAEA,AAAD,mBAAQ,CACP,qBAAS,AAAC,CACT,MAAM,CAAE,aAAa,CACtB",
-    "sources": [
-        "../react-udamu/src/components/Course/Course.module.scss"
-    ],
-    "names": [],
-    "file": "Course.module.min.css"
-}

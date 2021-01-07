@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CAevB,AAbE,AAAD,mBAAO,AAAC,CACN,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACvB,AAEA,AAAD,uBAAW,AAAC,CACV,OAAO,CAAE,IAAI,CACd,AAEA,AAAD,qBAAS,AAAC,CACR,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,CAAC,CACb",
-    "sources": [
-        "../react-udamu/src/components/AdminPanel/subcomponents/CoursePopup.module.scss"
-    ],
-    "names": [],
-    "file": "CoursePopup.module.min.css"
-}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,AAAC,CACL,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,GAAG,CACR,IAAI,CAAE,GAAG,CACT,SAAS,CAAE,qBAAqB,CAChC,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,GAAG,CAKb,AAXD,AAQE,MARI,AAQH,UAAU,AAAC,CACV,eAAe,CAAE,SAAS,CAC3B",
-    "sources": [
-        "../react-udamu/src/components/Modal/Modal.module.scss"
-    ],
-    "names": [],
-    "file": "Modal.module.min.css"
-}

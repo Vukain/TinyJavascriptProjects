@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,AAAC,CACV,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CAWvB,AATE,AAAD,6BAAmB,AAAC,CAClB,KAAK,CAAE,GAAG,CACX,AAEA,AAAD,gBAAM,AAAC,CACL,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,YAAY,CAC9B",
-    "sources": [
-        "../react-udamu/src/components/LoginForm/LoginForm.module.scss"
-    ],
-    "names": [],
-    "file": "LoginForm.module.min.css"
-}
