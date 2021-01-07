@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,gBAAgB,AAAC,CACf,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,kBAAkB,CAC9B,OAAO,CAAE,IAAI,CACd",
+    "sources": [
+        "../react-udamu/src/App.scss"
+    ],
+    "names": [],
+    "file": "App.min.css"
+}

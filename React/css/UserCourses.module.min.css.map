@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAC,CACZ,SAAS,CAAE,CAAC,CACZ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CAavB,AAXE,AAAD,oBAAQ,AAAC,CACP,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,IAAI,CAEpB,AAEA,AAAD,mBAAO,AAAC,CACN,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,IAAI,CACV",
+    "sources": [
+        "../react-udamu/src/components/UserCourses/UserCourses.module.scss"
+    ],
+    "names": [],
+    "file": "UserCourses.module.min.css"
+}
