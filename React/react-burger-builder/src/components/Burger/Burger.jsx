@@ -4,7 +4,6 @@ import { withRouter } from 'react-router';
 import classes from './Burger.module.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
-
 const burger = (props) => {
 
     let transformIngredients = Object.keys(props.ingredients)
