@@ -26,7 +26,7 @@ export const getStaticPaths = async () => {
 
     return {
         // dynamically generate paths for rarely used stuff
-        fallback: false,
+        fallback: 'blocking',
         paths: meetups.map(meetup => ({
             params: {
                 meetupId: meetup._id.toString()
