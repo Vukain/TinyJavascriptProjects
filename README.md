@@ -9,7 +9,11 @@ A shop dummy stylized with bootstrap.
 
 A typing robot animation.
 
-# VanillaJS
+# Next.js
+
+A meetup app.
+
+# Vanilla JavaScript
 
 Slot machine, basic todo app, virtual piano and a scroller.
 
